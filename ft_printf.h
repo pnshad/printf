@@ -6,7 +6,7 @@
 /*   By: pnourish  <marvin@42.fr>                   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/10 13:25:09 by mcombeau          #+#    #+#             */
-/*   Updated: 2023/09/15 22:19:10 by pnourish         ###   ########.fr       */
+/*   Updated: 2023/09/16 01:51:18 by pnourish         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
+# include <stdint.h>
 # include "libft/libft.h"
 
 # if defined (__linux__)
