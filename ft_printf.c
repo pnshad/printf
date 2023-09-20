@@ -6,7 +6,7 @@
 /*   By: pnourish  <marvin@42.fr>                   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 22:16:37 by pnourish          #+#    #+#             */
-/*   Updated: 2023/09/15 22:19:10 by pnourish         ###   ########.fr       */
+/*   Updated: 2023/09/21 01:25:07 by pnourish         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -133,7 +133,7 @@ int	ft_printf(const char *format, ...)
 	if (!format || *format == '\0')
 		return (0);
 	str = ft_strdup(format);
-	if (!str || *str == '\0')
+	if (!str)
 		return (0);
 	count = 0;
 	va_start(args, format);

@@ -6,7 +6,7 @@
 /*   By: pnourish  <marvin@42.fr>                   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/10 13:25:09 by mcombeau          #+#    #+#             */
-/*   Updated: 2023/09/16 01:51:18 by pnourish         ###   ########.fr       */
+/*   Updated: 2023/09/20 22:00:33 by pnourish         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,7 @@ int		ft_unint_len(unsigned int n);
 int		ft_hex_len(unsigned int n);
 int		ft_ptr_len(unsigned long int n);
 int		ft_istype(int c);
-int		ft_isspec(int c);
+int		ft_ismod(int c);
 int		ft_isflag(int c);
 
 /* ---------- FLAG FUNCTIONS ------------ */
