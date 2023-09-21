@@ -69,7 +69,7 @@ static size_t	st_strlcpy(char *restrict dst, const char *restrict src,
 
 	i = 0;
 	while (src[i] && i < dstsize - 1 && dstsize != 0)
-	{	
+	{
 		dst[i] = src[i];
 		i++;
 	}

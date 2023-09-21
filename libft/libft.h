@@ -83,14 +83,14 @@ t_list	*ft_lstlast(t_list *lst);
 
 // global variables
 # undef INT_MIN
-# define INT_MIN (-2147483648)
+# define INT_MIN -2147483648
 # undef INT_MAX
-# define INT_MAX (2147483647)
+# define INT_MAX 2147483647
 # undef LLONG_MAX
 # define LLONG_MAX 9223372036854775807LL
 # undef LLONG_MIN
-# define LLONG_MIN (-9223372036854775808LL)
+# define LLONG_MIN -9223372036854775808LL
 # undef ULLONG_MAX
-# define ULLONG_MAX (18446744073709551615ULL)
+# define ULLONG_MAX 18446744073709551615ULL
 
 #endif

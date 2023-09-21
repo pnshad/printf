@@ -20,11 +20,11 @@
 # include <stdint.h>
 # include "libft/libft.h"
 
-# if defined (__linux__)
-#  define PTRNULL "(nil)"
-# elif defined (__APPLE__)
-#  define PTRNULL "0x0"
-# endif
+// # if defined (__linux__)
+// #  define PTRNULL "(nil)"
+// # elif defined (__APPLE__)
+// #  define PTRNULL "0x0"
+// # endif
 
 /* ---------- FLAGS --------------------- */
 typedef struct s_flags
